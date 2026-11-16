@@ -1,0 +1,21 @@
+{
+  "stockId": "SIM001",
+  "name": "澄川科技（模拟）",
+  "simulated": true,
+  "timezone": "Asia/Shanghai",
+  "priceUnit": "分",
+  "sessions": [
+    {
+      "open": "09:30:00",
+      "close": "11:30:00"
+    },
+    {
+      "open": "13:00:00",
+      "close": "15:00:00"
+    }
+  ],
+  "previousClose": {
+    "date": "2026-02-27",
+    "close": 980
+  }
+}

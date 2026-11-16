@@ -1,0 +1,99 @@
+[
+  {
+    "id": "factor-earnings",
+    "tradingDate": "2026-03-09",
+    "eventIds": [
+      "evt-earnings"
+    ],
+    "financialIds": [
+      "fin-net-profit"
+    ],
+    "claim": "业绩改善可能影响市场预期",
+    "mechanism": "已披露的利润增长可能使投资者调整对经营表现的判断。",
+    "limitations": [
+      "尚无市场一致预期或对照分析，不能确认其导致当日上涨。",
+      "日级行情不能判断消息发布前后的价格变化。"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "factor-industry",
+    "tradingDate": "2026-03-09",
+    "eventIds": [
+      "evt-industry",
+      "evt-order"
+    ],
+    "financialIds": [],
+    "claim": "行业与业务进展可能带来预期变化",
+    "mechanism": "行业协作计划与公司意向协议可能影响对潜在需求的判断。",
+    "limitations": [
+      "行业计划未指明公司受益，意向协议也不保证收入。",
+      "缺少预期调查，因果关系尚未证实。"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "factor-order-cancel",
+    "tradingDate": "2026-03-13",
+    "eventIds": [
+      "evt-order-cancel"
+    ],
+    "financialIds": [
+      "fin-cancelled-order"
+    ],
+    "claim": "订单取消可能影响收入预期",
+    "mechanism": "具体订单取消可能使投资者下调对未来收入的判断。",
+    "limitations": [
+      "截至收盘尚未披露利润影响，不可用盘后补充信息反推。",
+      "没有对照分析，不能确认其导致全日下跌。"
+    ],
+    "priority": 1
+  },
+  {
+    "id": "factor-comment",
+    "tradingDate": "2026-03-13",
+    "eventIds": [
+      "evt-comment"
+    ],
+    "financialIds": [],
+    "claim": "市场情绪转弱是一种待验证假设",
+    "mechanism": "评论提出情绪波动的可能性，但未提供直接观察材料。",
+    "limitations": [
+      "仅有观点，缺少资金流、投资者调查等直接证据。",
+      "评论在盘中发布，不能解释消息之前或全日的价格变化。"
+    ],
+    "priority": 2
+  },
+  {
+    "id": "factor-future-event",
+    "tradingDate": "2026-03-13",
+    "eventIds": [
+      "evt-followup"
+    ],
+    "financialIds": [
+      "fin-order-profit"
+    ],
+    "claim": "盘后利润信息候选（用于验证截止时间排除）",
+    "mechanism": "该信息可能影响后续预期，但发布时间晚于所选日收盘。",
+    "limitations": [
+      "该候选在3月13日解释中必须被排除。"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "factor-future-financial",
+    "tradingDate": "2026-03-13",
+    "eventIds": [
+      "evt-order-cancel"
+    ],
+    "financialIds": [
+      "fin-order-profit"
+    ],
+    "claim": "旧报告期的新披露候选（用于验证财务披露时间）",
+    "mechanism": "报告期不能替代首次披露时间；该数据在收盘后才可知。",
+    "limitations": [
+      "关联事件虽已发布，财务数据仍属于未来信息，必须排除。"
+    ],
+    "priority": 4
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ev-market-open",
+    "eventId": "evt-market-open",
+    "sourceId": "src-market-open",
+    "sectionId": "body",
+    "quote": "本月生产计划维持不变"
+  },
+  {
+    "id": "ev-product",
+    "eventId": "evt-product",
+    "sourceId": "src-product",
+    "sectionId": "body",
+    "quote": "本次安排尚未形成销售收入"
+  },
+  {
+    "id": "ev-earnings",
+    "eventId": "evt-earnings",
+    "sourceId": "src-earnings",
+    "sectionId": "body",
+    "quote": "2025年第四季度净利润为1.28亿元，上年同期为1.00亿元，同比增长28%"
+  },
+  {
+    "id": "ev-industry",
+    "eventId": "evt-industry",
+    "sourceId": "src-industry",
+    "sectionId": "body",
+    "quote": "尚未公布参与企业名单和采购金额"
+  },
+  {
+    "id": "ev-order",
+    "eventId": "evt-order",
+    "sourceId": "src-order",
+    "sectionId": "body",
+    "quote": "协议没有约束性采购数量"
+  },
+  {
+    "id": "ev-midday",
+    "eventId": "evt-midday",
+    "sourceId": "src-midday",
+    "sectionId": "body",
+    "quote": "未提供市场一致预期调查或资金流数据"
+  },
+  {
+    "id": "ev-order-cancel",
+    "eventId": "evt-order-cancel",
+    "sourceId": "src-order-cancel",
+    "sectionId": "body",
+    "quote": "原订单金额为3000万元；对当期利润的影响尚待测算"
+  },
+  {
+    "id": "ev-comment",
+    "eventId": "evt-comment",
+    "sourceId": "src-comment",
+    "sectionId": "body",
+    "quote": "本文未引用交易账户、资金流或投资者调查，只提供观点"
+  },
+  {
+    "id": "ev-followup",
+    "eventId": "evt-followup",
+    "sourceId": "src-followup",
+    "sectionId": "body",
+    "quote": "相关订单原预计利润贡献为300万元"
+  },
+  {
+    "id": "ev-holiday",
+    "eventId": "evt-holiday",
+    "sourceId": "src-holiday",
+    "sectionId": "body",
+    "quote": "3月18日在本演示日历中为模拟休市日"
+  },
+  {
+    "id": "ev-research",
+    "eventId": "evt-research",
+    "sourceId": "src-research",
+    "sectionId": "body",
+    "quote": "没有给出样本、可复核预测模型或新增公司事实"
+  },
+  {
+    "id": "ev-close",
+    "eventId": "evt-close",
+    "sourceId": "src-close",
+    "sectionId": "body",
+    "quote": "本条发布时间恰为交易所当地15:00:00"
+  },
+  {
+    "id": "ev-outside",
+    "eventId": "evt-outside",
+    "sourceId": "src-outside",
+    "sectionId": "body",
+    "quote": "下一交易日3月30日没有行情记录"
+  },
+  {
+    "id": "ev-calendar",
+    "eventId": "evt-calendar",
+    "sourceId": "src-calendar",
+    "sectionId": "body",
+    "quote": "不能据此猜测下一交易日"
+  }
+]

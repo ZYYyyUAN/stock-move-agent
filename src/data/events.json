@@ -1,0 +1,204 @@
+[
+  {
+    "id": "evt-market-open",
+    "stockId": "SIM001",
+    "title": "模拟月度经营简报发布",
+    "publishedAt": "2026-03-02T08:30:00+08:00",
+    "type": "news",
+    "assertion": "fact",
+    "sourceId": "src-market-open",
+    "summary": "模拟简报称，公司本月生产计划维持不变，未披露新增订单或盈利预测。",
+    "evidenceIds": [
+      "ev-market-open"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-product",
+    "stockId": "SIM001",
+    "title": "公司发布模拟产品试用安排",
+    "publishedAt": "2026-03-04T10:15:00+08:00",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-product",
+    "summary": "公司拟于下周开始小范围产品试用，本次安排尚未形成销售收入。",
+    "evidenceIds": [
+      "ev-product"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-earnings",
+    "stockId": "SIM001",
+    "title": "公司披露季度净利润同比增长28%（模拟）",
+    "publishedAt": "2026-03-06T18:00:00+08:00",
+    "type": "financial",
+    "assertion": "fact",
+    "sourceId": "src-earnings",
+    "summary": "模拟财务披露：2025年第四季度净利润为1.28亿元，上年同期为1.00亿元，同比增长28%。该数据不构成下一季度业绩预测。",
+    "evidenceIds": [
+      "ev-earnings"
+    ],
+    "financialIds": [
+      "fin-net-profit"
+    ]
+  },
+  {
+    "id": "evt-industry",
+    "stockId": "SIM001",
+    "title": "模拟行业协作计划公布",
+    "publishedAt": "2026-03-07T10:00:00+08:00",
+    "type": "industry",
+    "assertion": "fact",
+    "sourceId": "src-industry",
+    "summary": "模拟产业协作计划拟支持相关技术试验，尚未公布参与企业名单和采购金额。",
+    "evidenceIds": [
+      "ev-industry"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-order",
+    "stockId": "SIM001",
+    "title": "公司披露模拟框架意向协议",
+    "publishedAt": "2026-03-09T02:00:00Z",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-order",
+    "summary": "公司与虚构客户签署框架意向协议。协议没有约束性采购数量，实际收入仍取决于后续订单。",
+    "evidenceIds": [
+      "ev-order"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-midday",
+    "stockId": "SIM001",
+    "title": "午间模拟评论讨论业绩预期",
+    "publishedAt": "2026-03-09T12:00:00+08:00",
+    "type": "news",
+    "assertion": "opinion",
+    "sourceId": "src-midday",
+    "summary": "评论作者认为近期披露或改善预期；这是作者观点，未提供市场一致预期调查或资金流数据。",
+    "evidenceIds": [
+      "ev-midday"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-order-cancel",
+    "stockId": "SIM001",
+    "title": "公司披露模拟订单取消事项",
+    "publishedAt": "2026-03-12T18:00:00+08:00",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-order-cancel",
+    "summary": "公司收到虚构客户取消一笔订单的通知，原订单金额为3000万元；对当期利润的影响尚待测算。",
+    "evidenceIds": [
+      "ev-order-cancel"
+    ],
+    "financialIds": [
+      "fin-cancelled-order"
+    ]
+  },
+  {
+    "id": "evt-comment",
+    "stockId": "SIM001",
+    "title": "模拟评论认为情绪可能转弱",
+    "publishedAt": "2026-03-13T10:00:00+08:00",
+    "type": "news",
+    "assertion": "opinion",
+    "sourceId": "src-comment",
+    "summary": "作者认为订单取消或引发情绪波动。本文未引用交易账户、资金流或投资者调查，只提供观点。",
+    "evidenceIds": [
+      "ev-comment"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-followup",
+    "stockId": "SIM001",
+    "title": "公司盘后披露模拟订单补充信息",
+    "publishedAt": "2026-03-13T16:00:00+08:00",
+    "type": "financial",
+    "assertion": "fact",
+    "sourceId": "src-followup",
+    "summary": "公司盘后补充披露，相关订单原预计利润贡献为300万元；该信息在3月13日收盘后才首次发布。",
+    "evidenceIds": [
+      "ev-followup"
+    ],
+    "financialIds": [
+      "fin-order-profit"
+    ]
+  },
+  {
+    "id": "evt-holiday",
+    "stockId": "SIM001",
+    "title": "模拟休市日发布技术交流安排",
+    "publishedAt": "2026-03-18T10:00:00+08:00",
+    "type": "industry",
+    "assertion": "fact",
+    "sourceId": "src-holiday",
+    "summary": "虚构行业交流活动计划下月举办，没有披露采购合同。3月18日在本演示日历中为模拟休市日。",
+    "evidenceIds": [
+      "ev-holiday"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-research",
+    "stockId": "SIM001",
+    "title": "模拟研究札记讨论长期需求",
+    "publishedAt": "2026-03-20T10:20:00+08:00",
+    "type": "news",
+    "assertion": "opinion",
+    "sourceId": "src-research",
+    "summary": "作者认为长期需求可能扩大，但没有给出样本、可复核预测模型或新增公司事实。",
+    "evidenceIds": [
+      "ev-research"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-close",
+    "stockId": "SIM001",
+    "title": "收盘时刻发布模拟例行公告",
+    "publishedAt": "2026-03-24T07:00:00Z",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-close",
+    "summary": "公司例行说明试用安排继续推进，未披露新增财务信息。本条发布时间恰为交易所当地15:00:00。",
+    "evidenceIds": [
+      "ev-close"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-outside",
+    "stockId": "SIM001",
+    "title": "行情范围末日盘后发布模拟安排",
+    "publishedAt": "2026-03-27T16:00:00+08:00",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-outside",
+    "summary": "公司发布下一周交流安排。本地行情只覆盖至3月27日，下一交易日3月30日没有行情记录。",
+    "evidenceIds": [
+      "ev-outside"
+    ],
+    "financialIds": []
+  },
+  {
+    "id": "evt-calendar",
+    "stockId": "SIM001",
+    "title": "日历范围末日盘后发布模拟事项",
+    "publishedAt": "2026-04-03T16:00:00+08:00",
+    "type": "announcement",
+    "assertion": "fact",
+    "sourceId": "src-calendar",
+    "summary": "公司发布例行模拟事项。本地日历止于4月3日，尚未提供更晚日期，不能据此猜测下一交易日。",
+    "evidenceIds": [
+      "ev-calendar"
+    ],
+    "financialIds": []
+  }
+]
